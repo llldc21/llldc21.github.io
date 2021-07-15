@@ -1,0 +1,193 @@
+/* Main page with stikky-footer
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  background-color: #44475a;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* The html and body elements cannot have any padding or margin. */
+  border-top: 3px solid #8BE9FD;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  padding-bottom: 50px;	
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -65px;
+  /* Pad bottom by footer height */
+  /*padding: 0 0 60px;*/
+}
+
+/* Navbar
+-------------------------------------------------- */
+
+.navbar-static-top {
+  margin-bottom: 10px;
+}
+.navbar-default {
+  background-color: #282A36;
+  border-color: #282A36;
+}
+.navbar-default .navbar-brand {
+  color: #f8f8f2;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ff79c6;
+}
+.navbar-default .navbar-text {
+  color: #f8f8f2;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f8f8f2;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ff79c6;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #6b6b6b;
+  background-color: #282a36;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #6b6b6b;
+  background-color: #282a36;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #282a36;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #282a36;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #6b6b6b;
+}
+.navbar-default .navbar-link {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-link:hover {
+  color: #6b6b6b;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #6b6b6b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #6b6b6b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #6b6b6b;
+    background-color: #282a36;
+  }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 800px;
+  text-align: center;
+  color: #f8f8f2;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.container a {
+  color: #8BE9FD;
+}
+.container a:hover {
+  color: #ff79c6;
+}
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+.panel-default h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+.panel-default h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.panel-default h6 {
+  font-size: 15px;
+}
+.panel-default h4 a, h5 a {
+  color: #27A822;
+}
+.panel-default h4 a:hover, h5 a:hover {
+  color: #267723;
+}
+.panel{
+  border-style: none;
+}
+.panel-body {
+  padding-top: -10px;
+  text-align: left;
+  background-color: #44475a;
+  color: #f8f8f2;
+}
+
+.social {
+  padding-top: 12px;
+  word-spacing: 25px;
+}
+.social h4 > a {
+  color: #f8f8f2;
+}
+.avatar {
+  padding-top: 5%;
+}
+
+.avatar img {
+  max-width: 150px;
+}
+
+.blog-post{
+  padding-top: 15px;
+}
+.blog-title{
+  padding-top: 2px;
+}
+.related-posts h4 {
+  text-align: center;
+}
+.page-not-found {
+  padding-top: 20%;
+}
+.disqus {
+  padding-bottom: 15px;
+}
+
+.blogpost{
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+/* Footer 
+-------------------------------------------------- */
+
+.footer {
+  text-decoration: none !important;
+}
+.text-muted {
+	color: #FFFFFF;
+}
+div.footer{
+  border-bottom: 5px solid #8BE9FD;;
+}
+/* Set the fixed height of the footer here */
+/*.footer {
+  height: 50px;
+  padding-bottom: 15px;
+  
+}*/

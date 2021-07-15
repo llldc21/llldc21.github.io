@@ -1,4 +1,17 @@
 ---
 layout: home
-author_profile: true
 ---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>Olá! Eu meu nome é <strong>{{ site.author }}</strong> e eu sou desenvolvedor de software.</h3>
+	  <h3>Eu amo ciência da computação e lógica.</h3>
+	  <h3>Se quiser ver alguns dos meus projetos acesse <a href="{{ site.baseurl }}projects.html"> projetos</a>.</h3>
+	  <h3>Para ver minhas competencias academicas &amp; profissionais <a href="{{ site.baseurl }}resume.html"> currículo</a>.</h3>
+	  <h3>Fale comigo no twitter <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> ou mande um <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>
